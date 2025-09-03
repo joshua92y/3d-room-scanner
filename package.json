@@ -1,0 +1,67 @@
+{
+  "name": "3d-room-scanner",
+  "version": "1.0.0",
+  "description": "웹 브라우저에서 카메라를 사용하여 방을 스캔하고 3D 도면을 생성하는 웹 애플리케이션",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -s",
+    "dev": "npx live-server --port=8000 --open=/",
+    "https": "npx serve . -s --ssl-cert cert.pem --ssl-key key.pem",
+    "python": "python server.py",
+    "python-http": "python server.py --http",
+    "build": "echo 'No build process needed for vanilla HTML/CSS/JS'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "3d-scanning",
+    "webgl",
+    "threejs",
+    "mediapipe",
+    "camera",
+    "computer-vision",
+    "room-scanning",
+    "floor-plan",
+    "web-app",
+    "javascript"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/3d-room-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/3d-room-scanner/issues"
+  },
+  "homepage": "https://github.com/your-username/3d-room-scanner#readme",
+  "devDependencies": {
+    "serve": "^14.2.0",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not < 2%",
+    "supports webgl",
+    "supports webrtc"
+  ],
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "files": [
+    "index.html",
+    "app.js",
+    "README.md",
+    "server.py"
+  ],
+  "directories": {
+    "doc": "./docs"
+  },
+  "config": {
+    "port": "8000",
+    "https_port": "8443"
+  }
+}
